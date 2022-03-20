@@ -1,0 +1,34 @@
+desktop-color: "#000000"
+desktop-image: "terminal.png"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ label {
+  top = 43%
+  left = 2%
+  width = 100%
+  align = "center"
+  text = "Welcome ~/, Not Yet."
+  color = "#00ff00"
+}
+
++ boot_menu {
+  top = 45%
+  left = 41%
+  width = 19%
+  height = 100%
+  item_color = "#00ff00"
+  item_spacing = 0
+  item_height = 25
+  item_width = 0
+  selected_item_color = "#000000"
+  selected_item_pixmap_style = "selected_*.png"
+}
+
++ label {
+  top = 60%
+  left = 45%
+  id = "__timeout__"
+  text = "%d"
+  color = "#00ff00"
+}
